@@ -1,7 +1,7 @@
 AS3 & Travis-CI common library
 ===========
 
-[![Build Status](https://travis-ci.org/as3-travisci/branches.svg?branch=master)](https://travis-ci.org/as3-travisci/branches)
+[![Build Status](https://travis-ci.org/fproject/as3-travisci.svg?branch=master)](https://travis-ci.org/fproject/as3-travisci)
 
 This repository provides a common library for doing CI/CD in AS3 using Travis-CI.
 
