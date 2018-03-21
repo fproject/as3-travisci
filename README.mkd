@@ -1,4 +1,4 @@
-AS3 Vanilla
+AS3 & Travis-CI common library
 ===========
 
 [![Build Status](https://travis-ci.org/nguyenbs/as3-travisci-test.svg?branch=master)](https://travis-ci.org/nguyenbs/as3-travisci-test)
