@@ -11,10 +11,10 @@ before_script:
 
   # Grab Flex SDK
   - curl -L https://bitbucket.org/nguyenbs/air-sdks/raw/3f2fd74094c2343b996f06e92699a56c8c9c6113/air_sdk_28.blob > sdk.zip
-  - unzip -qq sdk.zip -d ./sdk
+  - unzip sdk.zip -d ./sdk
   - export "SDK_HOME=`pwd`/sdk"
 
-  - unzip -qq flexunit.zip -d ./flexunit
+  - unzip flexunit.zip -d ./flexunit
   - export "FLEX_UNIT_HOME=`pwd`/flexunit"
 
   # Download and install a specific Flash Player from the Adobe Archives:
