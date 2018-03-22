@@ -5,4 +5,4 @@ AS3 & Travis-CI common library
 
 This repository provides a common library for doing CI/CD in AS3 using Travis-CI.
 
-It also contains an example AS3 project with sample Ant Build file.
+It also contains an sample AS3 project with Ant Build file.

@@ -33,9 +33,11 @@
 			<compiler.library-path dir="${bin.dir}" append="true">
 				<include name="${project.versionedname}.swc" />
 			</compiler.library-path>
+			<compiler.library-path dir="${flexunit.dir}" append="true">
+				<include name="*.swc" />
+			</compiler.library-path>
 			<compiler.library-path dir="${lib.dir}" append="true">
 				<include name="*.swc" />
-				<include name="flexunit/*.swc" />
 			</compiler.library-path>
 			<static-link-runtime-shared-libraries>true</static-link-runtime-shared-libraries>
 		</mxmlc>
