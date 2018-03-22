@@ -9,7 +9,7 @@
 	<taskdef resource="flexUnitTasks.tasks" classpath="${flexunit.dir}/flexUnitTasks-4.2.0-20140410.jar" />
 
 	<target name="init">
-		<echo message="Using FLEX_HOME: ${FLEX_HOME}&#10;flexunit.dir: ${flexunit.dir}&#10;lib.dir=${lib.dir}"/>
+		<echo message="Using FLEX_HOME: ${FLEX_HOME}"/>
 
 		<delete dir="${bin.dir}" />
 		<delete dir="${report.dir}" />
