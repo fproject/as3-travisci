@@ -6,7 +6,7 @@
 	<property file="build.properties" />
 
 	<taskdef resource="flexTasks.tasks" classpath="${FLEX_HOME}/ant/lib/flexTasks.jar" />
-	<taskdef resource="flexUnitTasks.tasks" classpath="${lib.dir}/flexunit/flexUnitTasks-4.2.0-20140410.jar" />
+	<taskdef resource="flexUnitTasks.tasks" classpath="${flexunit.dir}/flexUnitTasks-4.2.0-20140410.jar" />
 
 	<target name="init">
 		<echo message="Using FLEX_HOME: ${FLEX_HOME}${line.separator}flexunit.dir: ${flexunit.dir}${line.separator}lib.dir=${lib.dir}"/>
