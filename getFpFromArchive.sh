@@ -74,7 +74,7 @@ echo "[INFO] Found Mac SA Debug Player Zip: ${MAC_SA_DEBUG_APP_ZIP}"
 
 # Unzip mac_sa_debug.app.zip
 echo "[INFO] Unzipping player"
-unzip ${MAC_SA_DEBUG_APP_ZIP}
+unzip -q ${MAC_SA_DEBUG_APP_ZIP}
 
 # cleanup
 echo "[INFO] cleaning up temp files."
